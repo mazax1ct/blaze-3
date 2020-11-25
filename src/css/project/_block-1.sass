@@ -1,5 +1,6 @@
 .block-1
   margin-top: 100px
+  margin-bottom: 150px
   position: relative
   z-index: 1
 
@@ -8,17 +9,19 @@
 
   @media(min-width: 1200px)
     margin-top: 200px
+    margin-bottom: 310px
 
   &__inner
     margin-left: auto
     margin-right: auto
     padding-left: 20px
     padding-right: 20px
-    max-width: 1190px
+    max-width: 1230px
 
     @media(min-width: 600px)
       align-items: center
       display: flex
+      justify-content: space-between
 
   &__image
     margin-left: auto
@@ -28,6 +31,8 @@
 
     @media(min-width: 600px)
       margin-bottom: 0
+      margin-left: 30px
+      margin-right: 0
       min-width: 220px
       order: 2
       width: 220px
@@ -48,7 +53,6 @@
   &__text
     font-size: 13px
     line-height: 1.53846
-    margin-bottom: 20px
     text-align: center
 
     @media(min-width: 600px)
@@ -60,7 +64,7 @@
 
     @media(min-width: 1200px)
       font-size: 26px
-      margin-bottom: 50px
+      margin-bottom: 20px
 
   &__title
     background: linear-gradient(to right, #D562D7, #C558DB)
@@ -68,8 +72,7 @@
     -webkit-text-fill-color: transparent
     font-size: 130px
     font-weight: 700
-    line-height: 94px
-    margin-bottom: 20px
+    line-height: 1
     letter-spacing: -18px
     text-transform: uppercase
     text-align: center
@@ -82,14 +85,12 @@
 
     @media(min-width: 768px)
       font-size: 160px
-      line-height: 125px
 
     @media(min-width: 1200px)
       font-size: 210px
       font-weight: 600
-      line-height: 156px
       letter-spacing: -30px
-      margin-bottom: 50px
+      margin-bottom: 20px
       text-indent: -15px
 
   &__note
