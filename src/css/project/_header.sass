@@ -12,6 +12,9 @@
   top: 0
   z-index: 1
 
+  @media(min-width: 1200px)
+    padding-top: 40px
+
   &::after
     background: url('../images/backgrounds/blob_1.svg') no-repeat 50% -35px / 100% auto transparent
     content: ''
@@ -95,12 +98,14 @@
   &__menu-link
     color: #fff
     display: inline-block
+    height: 40px
     line-height: 15px
     padding-top: 11px
     padding-bottom: 12px
     text-decoration: none
 
     @media(min-width: 1200px)
+      height: 46px
       padding-top: 14px
 
     &:hover
@@ -113,12 +118,12 @@
       border-radius: 10px
       padding-left: 17px
       padding-right: 17px
-      height: 40px
       transition: background-color 0.3s, color 0.3s
 
       @media(min-width: 1200px)
         border-radius: 8px
-        height: 46px
+        padding-left: 23px
+        padding-right: 23px
 
       &:hover
         background-color: #fff
